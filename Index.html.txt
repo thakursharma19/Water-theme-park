@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuantumVerse 2035</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  
+  <header>
+    <h1>QuantumVerse 2035</h1>
+    <p>The Future of Fun Has Arrived</p>
+    <div id="visitor-counter">👁️ Visitors Online: <span id="visitor-count">0</span></div>
+    <a href="#attractions" class="btn">Explore Attractions</a>
+  </header>
+
+  <section id="attractions">
+    <h2>🚀 2035 Attractions</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Quantum Rapids</h3>
+        <p>Anti-gravity water ride through suspended vortex loops.</p>
+      </div>
+      <div class="card">
+        <h3>Neural Pool</h3>
+        <p>Control the waves with your thoughts in our brain-linked pool.</p>
+      </div>
+      <div class="card">
+        <h3>Dimension Coaster</h3>
+        <p>Race through parallel realities in a thrill-seeking odyssey.</p>
+      </div>
+      <div class="card">
+        <h3>VR Arena</h3>
+        <p>Battle bots in fully immersive haptic feedback suits.</p>
+      </div>
+    </div>
+    <button class="btn ticket-btn">🎟️ Book Your Journey</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
